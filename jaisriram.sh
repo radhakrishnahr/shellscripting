@@ -1,12 +1,14 @@
 #!/bin/bash
 
-#define A and B while running script
-read -sp  "Enter Fisrt Number : " A 
-read -sp  "Enter Second Number : "  B
+#define A , B and c while running script
+read -p  "Enter Fisrt Number : " A 
+read -p  "Enter Second Number : "  B
+read -p	"Enter Third Number : " C
 
 
-echo "You Entered $A and $B"
-echo "I am Rajakumar"
+echo "You Entered $A and $B and $C"
+
+
 
 # addition
-echo "addition of $A & $B is $(expr $A + $B)"
+echo "addition of $A & $B & $C is $(expr $A + $B + $C)"
