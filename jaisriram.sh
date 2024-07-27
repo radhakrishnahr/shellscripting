@@ -6,7 +6,7 @@ read -sp  "Enter Second Number : "  B
 
 
 echo "You Entered $A and $B"
-
+echo "I am Rajakumar"
 
 # addition
 echo "addition of $A & $B is $(expr $A + $B)"
