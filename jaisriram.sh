@@ -5,7 +5,9 @@ read -p  "Enter Fisrt Number : " A
 read -p  "Enter Second Number : "  B
 read -p	"Enter Third Number : " C
 
+
 echo "You Entered $A and $B and $C"
+
 
 
 # addition
